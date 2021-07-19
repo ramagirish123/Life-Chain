@@ -1,0 +1,36 @@
+.authenticationPage {
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, #eb605b, #fcab8b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .centerCard {
+        height: 65%;
+        width: 70%;
+        max-height: 668px;
+        max-width: 1220px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+        padding: 40px;
+        box-sizing: border-box;
+        background-color: white;
+        position: relative;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.23);
+        .logo {
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            top: 25px;
+            right: 25px;
+        }
+        .content {
+            flex-basis: 50%;
+        }
+        .bannerImage {
+            flex-basis: 50%;
+            height: 85%;
+            object-fit: contain;
+        }
+    }
+}
